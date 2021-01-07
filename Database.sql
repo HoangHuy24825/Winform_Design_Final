@@ -487,7 +487,7 @@ CREATE PROC STP_AddAnAccount(
 AS
 BEGIN
 	DECLARE @result BIT
-	IF(NOT EXISTS (SELECT * FROM Account WHERE idStaff = @idStaff))
+	IF(NOT EXISTS (SELECT * FROM Account WHERE idStaff = @idStaff AND isDeleted = 0))
 	BEGIN
 		INSERT INTO Account(userName,pass,typeAccount,idStaff,isDeleted) VALUES 
 		(@userName,'1',@typeAccount,@idStaff,0)

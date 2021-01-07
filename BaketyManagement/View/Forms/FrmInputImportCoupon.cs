@@ -336,16 +336,9 @@ namespace BaketyManagement.View.Forms
         {
             if (dgvDetailImport.Rows.Count > 1)
             {
-                DialogResult result = MessageBox.Show("Bạn có muốn hủy Phiếu nhập này không??", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    CancelCoupon(); 
-                    this.Close();
-                }
-                else
-                {
-                    e.Cancel = false;
-                }
+                MessageBox.Show("Bạn đã hủy Phiếu nhập này", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                CancelCoupon(); 
+                this.Close();
             }
         }
         #endregion

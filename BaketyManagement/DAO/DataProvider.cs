@@ -12,9 +12,9 @@ namespace BaketyManagement.DAO
     {
         private static DataProvider instance;
 
-        private String strConnection = @"Data Source=DESKTOP-T7UP8J0;Initial Catalog=BakeryManagement;Integrated Security=True";
+        //private String strConnection = @"Data Source=DESKTOP-T7UP8J0;Initial Catalog=BakeryManagement;Integrated Security=True";
 
-        //private String strConnection = @"Data Source=DESKTOP-LG103V8;Initial Catalog=BakeryManagement;Integrated Security=True";
+        private String strConnection = @"Data Source=DESKTOP-LG103V8;Initial Catalog=BakeryManagement;Integrated Security=True";
         public static DataProvider Instance
         {
             get
