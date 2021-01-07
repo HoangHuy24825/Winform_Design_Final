@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CECF2B5-FDC0-4694-8886-0D41AC430E21}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BaketyManagement</RootNamespace>
+    <AssemblyName>BaketyManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1427.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Button_WOC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\BillDAO.cs" />
+    <Compile Include="DAO\BillDetailDAO.cs" />
+    <Compile Include="DAO\CakeDAO.cs" />
+    <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\ImportCouponDAO.cs" />
+    <Compile Include="DAO\ImportCouponDetailDAO.cs" />
+    <Compile Include="DAO\SalaryDAO.cs" />
+    <Compile Include="DAO\StaffDAO.cs" />
+    <Compile Include="DAO\StatisticalDAO.cs" />
+    <Compile Include="DAO\SupplierDAO.cs" />
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="DTO\Bill.cs" />
+    <Compile Include="DTO\Cake.cs" />
+    <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\ImportCoupon.cs" />
+    <Compile Include="DTO\ImportCouponDetail.cs" />
+    <Compile Include="DTO\Staff.cs" />
+    <Compile Include="DTO\Supplier.cs" />
+    <Compile Include="GetFullListCakeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GetFullListCakeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PrintBillDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintBillDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="View\CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmAccountInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmAccountInfor.Designer.cs">
+      <DependentUpon>FrmAccountInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforSalary.Designer.cs">
+      <DependentUpon>FrmInforSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FormPrint\FrmPrintBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FormPrint\FrmPrintBill.Designer.cs">
+      <DependentUpon>FrmPrintBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FormPrint\FrmPrintInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FormPrint\FrmPrintInventory.Designer.cs">
+      <DependentUpon>FrmPrintInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FormPrint\FrmPrintSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FormPrint\FrmPrintSalary.Designer.cs">
+      <DependentUpon>FrmPrintSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmAccount.Designer.cs">
+      <DependentUpon>FrmAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabAccount.Designer.cs">
+      <DependentUpon>FrmInforTabAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabCategory.Designer.cs">
+      <DependentUpon>FrmInforTabCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabImputCouponImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabImputCouponImport.Designer.cs">
+      <DependentUpon>FrmInforTabImputCouponImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabProduct.Designer.cs">
+      <DependentUpon>FrmInforTabProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabProvider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabProvider.Designer.cs">
+      <DependentUpon>FrmInforTabProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInfor\FrmInforTabStaff.Designer.cs">
+      <DependentUpon>FrmInforTabStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmBill.Designer.cs">
+      <DependentUpon>FrmBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmImportCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmImportCoupon.Designer.cs">
+      <DependentUpon>FrmImportCoupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmInputImportCoupon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmInputImportCoupon.Designer.cs">
+      <DependentUpon>FrmInputImportCoupon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmOrder.Designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Forms\FrmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmProducts.Designer.cs">
+      <DependentUpon>FrmProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmStaff.Designer.cs">
+      <DependentUpon>FrmStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmStatisticalChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmStatisticalChart.Designer.cs">
+      <DependentUpon>FrmStatisticalChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmStatisticalList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmStatisticalList.Designer.cs">
+      <DependentUpon>FrmStatisticalList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmSupplier.Designer.cs">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forms\FrmTimeKeeping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forms\FrmTimeKeeping.Designer.cs">
+      <DependentUpon>FrmTimeKeeping.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\FormInfor\FrmAccountInfor.resx">
+      <DependentUpon>FrmAccountInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforSalary.resx">
+      <DependentUpon>FrmInforSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FormPrint\FrmPrintBill.resx">
+      <DependentUpon>FrmPrintBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FormPrint\FrmPrintInventory.resx">
+      <DependentUpon>FrmPrintInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FormPrint\FrmPrintSalary.resx">
+      <DependentUpon>FrmPrintSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FormPrint\ReportBill.rdlc" />
+    <EmbeddedResource Include="View\Forms\FormPrint\ReportInventory.rdlc" />
+    <EmbeddedResource Include="View\Forms\FormPrint\ReportSalary.rdlc" />
+    <EmbeddedResource Include="View\Forms\FrmAccount.resx">
+      <DependentUpon>FrmAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforTabAccount.resx">
+      <DependentUpon>FrmInforTabAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforTabCategory.resx">
+      <DependentUpon>FrmInforTabCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforTabImputCouponImport.resx">
+      <DependentUpon>FrmInforTabImputCouponImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforTabProduct.resx">
+      <DependentUpon>FrmInforTabProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforTabProvider.resx">
+      <DependentUpon>FrmInforTabProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInfor\FrmInforTabStaff.resx">
+      <DependentUpon>FrmInforTabStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmBill.resx">
+      <DependentUpon>FrmBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmImportCoupon.resx">
+      <DependentUpon>FrmImportCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmInputImportCoupon.resx">
+      <DependentUpon>FrmInputImportCoupon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmProducts.resx">
+      <DependentUpon>FrmProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmStaff.resx">
+      <DependentUpon>FrmStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmStatisticalChart.resx">
+      <DependentUpon>FrmStatisticalChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmStatisticalList.resx">
+      <DependentUpon>FrmStatisticalList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmSupplier.resx">
+      <DependentUpon>FrmSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Forms\FrmTimeKeeping.resx">
+      <DependentUpon>FrmTimeKeeping.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GetFullListCakeDataSet.xsc">
+      <DependentUpon>GetFullListCakeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GetFullListCakeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GetFullListCakeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GetFullListCakeDataSet.xss">
+      <DependentUpon>GetFullListCakeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PayrollDataSet.xsc">
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollDataSet.xss">
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintBillDataSet.xsc">
+      <DependentUpon>PrintBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrintBillDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrintBillDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PrintBillDataSet.xss">
+      <DependentUpon>PrintBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxnimize1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxnimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoBakery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\provider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportCoupon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnterImportCoupon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StatiticalList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accountInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundLoginForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timeKeeping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\allIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bread.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quickBread1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midMoonCake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundWelcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timekeepingSmaller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,192 @@
+D:\Desktop\Winform_Design - Copy\BaketyManagement\bin\Debug\BaketyManagement.exe.config
+D:\Desktop\Winform_Design - Copy\BaketyManagement\bin\Debug\BaketyManagement.exe
+D:\Desktop\Winform_Design - Copy\BaketyManagement\bin\Debug\BaketyManagement.pdb
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.csprojAssemblyReference.cache
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.FrmAccountInfor.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FormInfor.FrmInforSalary.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmAccount.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.FrmAdmin.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabAccount.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabCategory.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabImputCouponImport.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProduct.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProvider.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabStaff.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmBill.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmCategory.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmImportCoupon.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmInputImportCoupon.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.FrmLogin.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.FrmOrder.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.FrmMain.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.Properties.Resources.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmProducts.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStaff.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalChart.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalList.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmSupplier.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmTimeKeeping.resources
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.csproj.GenerateResource.cache
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.csproj.CoreCompileInputs.cache
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.exe
+D:\Desktop\Winform_Design - Copy\BaketyManagement\obj\Debug\BaketyManagement.pdb
+D:\Desktop\clone\BaketyManagement\bin\Debug\BaketyManagement.exe.config
+D:\Desktop\clone\BaketyManagement\bin\Debug\BaketyManagement.exe
+D:\Desktop\clone\BaketyManagement\bin\Debug\BaketyManagement.pdb
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.csprojAssemblyReference.cache
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.FrmAccountInfor.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FormInfor.FrmInforSalary.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmAccount.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.FrmAdmin.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabAccount.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabCategory.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabImputCouponImport.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProduct.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProvider.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabStaff.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmBill.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmCategory.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmImportCoupon.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmInputImportCoupon.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.FrmLogin.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.FrmOrder.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.FrmMain.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.Properties.Resources.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmProducts.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStaff.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalChart.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalList.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmSupplier.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmTimeKeeping.resources
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.csproj.GenerateResource.cache
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.csproj.CoreCompileInputs.cache
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.exe
+D:\Desktop\clone\BaketyManagement\obj\Debug\BaketyManagement.pdb
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\bin\Debug\BaketyManagement.exe.config
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\bin\Debug\BaketyManagement.exe
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\bin\Debug\BaketyManagement.pdb
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csprojAssemblyReference.cache
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmAccountInfor.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FormInfor.FrmInforSalary.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmAccount.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmAdmin.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabAccount.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabCategory.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabImputCouponImport.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProduct.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProvider.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabStaff.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmBill.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmCategory.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmImportCoupon.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmInputImportCoupon.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmLogin.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmOrder.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmMain.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.Properties.Resources.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmProducts.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStaff.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalChart.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalList.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmSupplier.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmTimeKeeping.resources
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csproj.GenerateResource.cache
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csproj.CoreCompileInputs.cache
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.exe
+C:\Users\hoang\Desktop\BTL_Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.pdb
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\BaketyManagement.exe.config
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\BaketyManagement.exe
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\BaketyManagement.pdb
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\EnvDTE.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\stdole.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\Microsoft.MSXML.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csprojAssemblyReference.cache
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmAccountInfor.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FormInfor.FrmInforSalary.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FormPrint.FrmPrintBill.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FormPrint.FrmPrintInventory.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmAccount.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmAdmin.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabAccount.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabCategory.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabImputCouponImport.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProduct.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabProvider.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmInforTabStaff.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmBill.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmCategory.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmImportCoupon.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmInputImportCoupon.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmLogin.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.FrmOrder.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.FrmMain.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.Properties.Resources.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmProducts.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStaff.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalChart.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmStatisticalList.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmSupplier.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FrmTimeKeeping.resources
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csproj.GenerateResource.cache
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\RdlCompile.cache
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\RdlCompile.compiled
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csproj.CoreCompileInputs.cache
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.csproj.CopyComplete
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.exe
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.pdb
+C:\Users\hoang\Desktop\Winform_Final\BaketyManagement\obj\Debug\BaketyManagement.View.Forms.FormPrint.FrmPrintSalary.resources
