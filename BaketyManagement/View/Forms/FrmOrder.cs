@@ -269,8 +269,6 @@ namespace BaketyManagement.View
             if (totalMoney > 0)
             {
                 Pay();
-                FrmPrintBill frmPrintBill = new FrmPrintBill();
-                frmPrintBill.ShowDialog();
             }
             else
             {
@@ -411,6 +409,8 @@ namespace BaketyManagement.View
                 Int32 maxIdBill = BillDAO.Instance.GetMaxIDBill();
                 BillDAO.Instance.InsertPayBill(maxIdBill, totalMoney, totalAfterDiscount, customerMoney, returnMoney);
                 dgvBill.DataSource = null;
+                FrmPrintBill frmPrintBill = new FrmPrintBill();
+                frmPrintBill.ShowDialog();
             }
             catch (Exception ex)
             {
