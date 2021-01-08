@@ -178,11 +178,12 @@ INSERT INTO Account(userName,pass,typeAccount,idStaff,isDeleted) VALUES
 
 INSERT INTO Bill(exportDate,discount,idStaff) VALUES
 ('2020-12-6',0,2),
-('2020-12-4',0,2),
-('2020-12-6',0,3),
-('2020-12-9',0,3),
-('2020-11-10',0,4),
-('2020-10-1',0,4)
+('2020-11-4',0,2),
+('2020-10-2',0,2),
+('2021-1-2',0,3),
+('2021-1-8',0,3),
+('2021-1-5',0,4),
+('2021-1-6',0,4)
 
 INSERT INTO BillDetail(idBill,idCake,amountOrder) VALUES
 (1,1,2),
@@ -193,7 +194,9 @@ INSERT INTO BillDetail(idBill,idCake,amountOrder) VALUES
 (5,2,1),
 (5,3,2),
 (6,4,4),
-(6,3,1)
+(6,3,1),
+(7,4,4),
+(7,3,1)
 GO
 
 
