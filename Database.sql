@@ -689,7 +689,7 @@ AS
 BEGIN
 	SELECT FORMAT(B.exportDate,'dd/MM/yyyy') as exportDate, SUM(BD.amountOrder*C.exportPrice) AS totalMoney 
 	FROM BillDetail AS BD, Cake AS C, Bill AS B 
-	WHERE BD.idBill=B.idBill AND C.idCake=BD.idCake AND exportDate<=@endDate AND exportDate>=@startDate
+	WHERE BD.idBill=B.idBill AND C.idCake=BD.idCake AND exportDate<=@endDate AND exportDate>=@startDate 
 	GROUP BY exportDate
 END 
 
@@ -705,7 +705,7 @@ AS
 BEGIN
 	SELECT TOP(10) nameCake,SUM(amountOrder) AS order1 
 	FROM BillDetail AS BD, Cake AS C, Bill AS B 
-	WHERE BD.idBill=B.idBill AND C.idCake=BD.idCake AND exportDate<=@endDate AND exportDate>=@startDate
+	WHERE BD.idBill=B.idBill AND C.idCake=BD.idCake AND exportDate<=@endDate AND exportDate>=@startDate 
 	GROUP BY nameCake
 	ORDER BY order1 DESC
 END 
@@ -737,13 +737,13 @@ CREATE PROC STP_StatisticalRevenue3Months
 @endDate Date
 AS 
 BEGIN
-	SELECT MONTH(exportDate) as exportDate, SUM(BD.amountOrder*C.exportPrice) AS totalMoney
+	SELECT CONCAT(CONVERT(NVARCHAR(10),MONTH(exportDate)),'/',CONVERT(NVARCHAR(10),Year(exportDate))) as exportDate, SUM(BD.amountOrder*C.exportPrice) AS totalMoney
 	FROM BillDetail AS BD, Cake AS C, Bill AS B 
 	WHERE BD.idBill=B.idBill AND C.idCake=BD.idCake AND exportDate<=@endDate AND exportDate>=@startDate
-	GROUP BY MONTH(exportDate)
+	GROUP BY MONTH(exportDate),Year(exportDate)
 END 
 
---EXEC STP_StatisticalRevenue3Months '2020-10-1','2020-12-10'
+--EXEC STP_StatisticalRevenue3Months '2020-10-1','2021-1-8'
 --DROP PROC STP_StatisticalRevenue3Months
 GO
 
@@ -1427,6 +1427,3 @@ SELECT * FROM Bill
 SELECT * FROM BillDetail
 SELECT * FROM Staff
 SELECT * FROM Account
-
-SELECT MAX(idBill) FROM Bill
-SELECT COUNT(*) FROM BillDetail WHERE idBill = 1

@@ -66,7 +66,7 @@ namespace BaketyManagement.View.Forms
             if (radRevenue7DaysList.Checked)
             {
                 DateTime now = DateTime.Now;
-                DateTime sevenDaysAgo = DateTime.Today.AddDays(-7);
+                DateTime sevenDaysAgo = DateTime.Today.AddDays(-6);
                 dgvStatistical.DataSource = StatisticalDAO.Instance.Revenue7Days(sevenDaysAgo, now);
                 dgvStatistical.Columns[0].HeaderText = "Ngày";
                 dgvStatistical.Columns[1].HeaderText = "Tổng tiền";
@@ -76,7 +76,7 @@ namespace BaketyManagement.View.Forms
             {
                 DateTime now = DateTime.Now;
                 DateTime month = new DateTime(now.Year, now.Month, 1);
-                DateTime threeMonthAgo = month.AddMonths(-3);
+                DateTime threeMonthAgo = month.AddMonths(-2);
                 dgvStatistical.DataSource = StatisticalDAO.Instance.Revenue3Moths(threeMonthAgo, now);
                 dgvStatistical.Columns[0].HeaderText = "Tháng";
                 dgvStatistical.Columns[1].HeaderText = "Tổng tiền";
@@ -85,7 +85,7 @@ namespace BaketyManagement.View.Forms
             else if (radBestSellerList.Checked)
             {
                 DateTime now = DateTime.Now;
-                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-30);
+                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-29);
                 dgvStatistical.DataSource = StatisticalDAO.Instance.TenBestSeller(thirtyDaysAgo, now);
                 dgvStatistical.Columns[0].HeaderText = "Tên bánh";
                 dgvStatistical.Columns[1].HeaderText = "Số lượng";
@@ -94,7 +94,7 @@ namespace BaketyManagement.View.Forms
             else if (radSlowestSellerList.Checked)
             {
                 DateTime now = DateTime.Now;
-                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-30);
+                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-29);
                 dgvStatistical.DataSource = StatisticalDAO.Instance.TenSlowestSeller(thirtyDaysAgo, now);
                 dgvStatistical.Columns[0].HeaderText = "Tên bánh";
                 dgvStatistical.Columns[1].HeaderText = "Số lượng";

@@ -117,7 +117,7 @@ namespace BaketyManagement.View.Forms
             if (radRevenue7DaysChart.Checked)
             {
                 DateTime now = DateTime.Now;
-                DateTime sevenDaysAgo = DateTime.Today.AddDays(-7);
+                DateTime sevenDaysAgo = DateTime.Today.AddDays(-6);
                 DataTable source = StatisticalDAO.Instance.Revenue7Days(sevenDaysAgo, now);
                 String chartName = "BIỂU ĐỒ THỐNG KÊ DOANH THU 7 NGÀY GẦN ĐÂY";
                 String xValueMember = "exportDate";
@@ -138,7 +138,7 @@ namespace BaketyManagement.View.Forms
             else if (radBestSellerChart.Checked)
             {
                 DateTime now = DateTime.Now;
-                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-30);
+                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-29);
                 DataTable source = StatisticalDAO.Instance.TenBestSeller(thirtyDaysAgo, now);
                 String chartName = "BIỂU ĐỒ THỐNG KÊ DOANH THU 10 SẢN PHẨM BÁN CHẠY NHẤT TRONG 30 NGÀY GẦN ĐÂY";
                 String xValueMember = "nameCake";
@@ -159,7 +159,7 @@ namespace BaketyManagement.View.Forms
             else if (radSlowestSellerChart.Checked)
             {
                 DateTime now = DateTime.Now;
-                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-30);
+                DateTime thirtyDaysAgo = DateTime.Today.AddDays(-29);
                 DataTable source = StatisticalDAO.Instance.TenSlowestSeller(thirtyDaysAgo, now);
                 String chartName = "BIỂU ĐỒ THỐNG KÊ DOANH THU 10 SẢN PHẨM BÁN CHẬM NHẤT TRONG 30 NGÀY GẦN ĐÂY";
                 String xValueMember = "nameCake";
@@ -181,7 +181,7 @@ namespace BaketyManagement.View.Forms
             {
                 DateTime now = DateTime.Now;
                 DateTime month = new DateTime(now.Year, now.Month, 1);
-                DateTime threeMonthAgo = month.AddMonths(-3);
+                DateTime threeMonthAgo = month.AddMonths(-2);
                 DataTable source = StatisticalDAO.Instance.Revenue3Moths(threeMonthAgo, now);
                 String chartName = "BIỂU ĐỒ THỐNG KÊ DOANH THU 3 THÁNG GẦN ĐÂY";
                 String xValueMember = "exportDate";
